@@ -11,13 +11,13 @@ public class Array4 {
 
         }
 
-        int minVal = array[0];
+        int minVal = -25;
         for (int i = 0; i < array.length; i++) {
             if (array[i] > minVal & array[i] < 0) minVal = array[i];
         }
         System.out.println(minVal < 0 ? "Максимальное отрицательное знчение: " + minVal : "Максимальное отрицательное значение не найдено");
 
-        int maxVal = array[0];
+        int maxVal = 25;
         for (int i = 0; i < array.length; i++) {
             if (array[i] > 0 & array[i] < maxVal) maxVal = array[i];
         }
